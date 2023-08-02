@@ -33,6 +33,10 @@ The configurations of `mta-sts-jobnet-com-vn` are as follows:
 - Directory: `~/mta-sts/dist/`
 
 
+## 5/ Reconfigure the Project
+This step is mandatory if you created and initialized the project with a single site at the beginning, and now you want to add other sites to this project to share the same Firebase resources, while also having their own unique domains or content.
+
+
 ## Useful Links:
 - https://firebase.google.com/docs/hosting/quickstart
 - https://firebase.google.com/docs/cli
