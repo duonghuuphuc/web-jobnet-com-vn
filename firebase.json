@@ -29,7 +29,7 @@
     ],
     "rewrites": [
       {
-        "source": "/static/**",
+        "source": "/.well-known/**",
         "destination": "/403.html",
         "type": 302
       },
