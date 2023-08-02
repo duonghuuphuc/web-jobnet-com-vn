@@ -1,5 +1,6 @@
 {
   "hosting": [ {
+    "target": "www",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -20,7 +21,7 @@
   },
   {
     "target": "mta-sts",
-    "public": "mta-sts/public",
+    "public": "mta-sts/dist",
     "ignore": [
       "firebase.json",
       "**/.*",

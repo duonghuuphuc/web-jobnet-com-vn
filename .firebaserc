@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "jobnet-com-vn-20230801"
-  }
+  },
+  "targets": {
+    "jobnet-com-vn-20230801": {
+      "hosting": {
+        "mta-sts": [
+          "mta-sts-jobnet-com-vn"
+        ],
+        "www": [
+          "jobnet-com-vn-20230801"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
