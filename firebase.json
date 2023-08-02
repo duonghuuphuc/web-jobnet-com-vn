@@ -1,5 +1,5 @@
 {
-  "hosting": {
+  "hosting": [ {
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -17,5 +17,25 @@
         "destination": "/404.html"
       }
     ]
-  }
+  },
+  {
+    "target": "mta-sts",
+    "public": "mta-sts/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/static/**",
+        "destination": "/403.html",
+        "type": 302
+      },
+      {
+        "source": "**",
+        "destination": "/404.html"
+      }
+    ]
+  } ]
 }
